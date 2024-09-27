@@ -1,0 +1,108 @@
+/* start >> menambahkan font bawaan sendiri */
+@font-face {
+    font-family: ubuntu;
+    src: url(assets/font/ubuntu.ttf);
+}
+/* end >> menambahkan font bawaan sendiri  */
+
+body {
+    /* hilangkan margin dan padding default  */
+    /* start */
+    margin: 0; 
+    padding: 0;
+    /* end */
+    font-family: ubuntu;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    line-height: 150%;
+}
+
+/* start >> setting left container */
+.left-container {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: #163853;
+    color: white;
+}
+
+.pp {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+}
+
+.foto {
+    width: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.head-lc {
+    border-left: 5px solid white;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 30px;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 10px;
+}
+
+.contact {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* .contact:hover {
+    color: gold;
+    transition: 1s;
+} */
+
+.p-lc-a {
+    color: white;
+}
+
+.p-lc-a:hover {
+    color: gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.skills {
+    margin-left: 30px;
+    margin-right: 40px;
+    text-align: left;
+    /* line-height: 150%; */
+}
+/* end >> setting left container */
+
+/* start >> setting right container */
+.right-container {
+    position: absolute;
+    left: 400px;
+}
+
+.headbar {
+    font-style: italic;
+}
+
+.navbar {
+
+}
+/* end >> setting right container */
